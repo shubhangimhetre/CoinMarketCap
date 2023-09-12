@@ -3,7 +3,7 @@ const axios = require('axios');
 
 
 exports.convert_currency = async (req, res) => {
-    console.log(req.query)
+    //console.log(req.query)
     const amount = req.query.amount
     const symbol = req.query.symbol
     const convert = req.query.convert
