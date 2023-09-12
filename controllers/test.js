@@ -36,7 +36,7 @@ exports.convert_currency = async (req, res) => {
                     USD: json.data.quote.USD.price
                 })
                 const data2 = await data1.save()
-                console.log("Data stored in database\t",data2);
+                //console.log("Data stored in database\t",data2);
             }catch(err){
                 console.log(err)
             }
