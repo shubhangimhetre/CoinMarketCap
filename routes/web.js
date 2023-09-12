@@ -1,7 +1,7 @@
-const express=require('express')
-const router=express.Router()
-const serve=require('../controllers/test')
+const express=require('express');
+const router=express.Router();
+const serve=require('../controllers/test');
 
-router.get('/convert',serve.convert_currency)
+router.get('/convert',serve.convert_currency);
 
-module.exports=router
+module.exports=router;
